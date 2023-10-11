@@ -1,0 +1,83 @@
+* {
+    background-color: white;
+    font-family: Pacifico, cursive, sans-serif;
+    margin: 0; /* Reset the default margin for all elements to zero */
+    padding: 0; /* Reset the default padding for all elements to zero */
+    box-sizing: border-box;
+ 
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.image-link {
+    margin: 50px; /* Add margin to create spacing between images */
+    text-decoration: none;
+    transition: transform 0.3s, border-radius 0.3s;
+}
+
+.image-link:visited {
+    color: black;
+}
+
+.image-link:hover {
+    color: #639db9;
+    transform: scale(1.05);
+    border-radius: 25%;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.samosa-container {
+    margin: 50px;
+    display: flex;
+    padding: 5px;
+    
+}
+
+.samosa-container p {
+    margin: 50px;
+    border: #639db9 solid 1px ;
+}
+
+.samosa-container h3 {
+    margin: 50px;
+    border: #639db9 solid 1px ;
+}
+
+
+
+
+
+
+
+
